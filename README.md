@@ -85,7 +85,7 @@ Both datasets use the same feature schema:
 
 Primary notebook:
 
-- `/home/runner/work/emlearn-Regression/emlearn-Regression/Ensemble Regression/WhiteWineQuality_Regression.ipynb`
+- `Ensemble Regression/WhiteWineQuality_Regression.ipynb`
 
 This notebook performs:
 
@@ -151,7 +151,7 @@ Each sketch:
 
 Primary notebook:
 
-- `/home/runner/work/emlearn-Regression/emlearn-Regression/Neural Network Regression/RedWineQuality_Regression.ipynb`
+- `Neural Network Regression/RedWineQuality_Regression.ipynb`
 
 This notebook performs:
 
