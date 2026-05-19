@@ -56,13 +56,13 @@ The codebase shows an end-to-end path from dataset exploration to embedded deplo
 
 - White wine dataset used by `Ensemble Regression/WhiteWineQuality_Regression.ipynb`
 - 11 physicochemical input variables plus the `quality` target
-- Notebook background text states the dataset contains **4,898 samples**
+- The checked-in CSV contains **4,898 data rows**
 
 ### `winequality-red.csv`
 
 - Red wine dataset used by `Neural Network Regression/RedWineQuality_Regression.ipynb`
 - 11 physicochemical input variables plus the `quality` target
-- Notebook background text states the dataset contains **1,599 samples**
+- The checked-in CSV contains **1,599 data rows**
 
 Both datasets use the same feature schema:
 
@@ -273,7 +273,12 @@ Open the notebooks and rerun the training/export cells with a Python environment
 - keras / tensorflow
 - emlearn
 
-Note: the notebooks contain hard-coded local Windows dataset paths in their load cells. When rerunning them in a new environment, update those paths to point at the CSV files in this repository root.
+Note: the notebooks contain hard-coded Windows dataset paths in their load cells:
+
+- `C:\Users\Predator\Desktop\emlearn Examples\Dataset\winequality-white.csv`
+- `C:\Users\Predator\Desktop\emlearn Examples\Dataset\winequality-red.csv`
+
+When rerunning the notebooks in a new environment, update those load paths to point at the CSV files in this repository root.
 
 ### Run the embedded examples
 
